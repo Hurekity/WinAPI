@@ -217,6 +217,7 @@ INT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		CHAR sz_symbol[2]{};
 		if (LOWORD(wParam) >= IDC_BUTTON_0 && LOWORD(wParam) <= IDC_BUTTON_9)
 		{
+			
 			sz_symbol[0] = LOWORD(wParam) - IDC_BUTTON_0 + 48;
 			strcat(sz_display, sz_symbol);
 			SendMessage(hEdit, WM_SETTEXT, 0, (LPARAM)sz_display);

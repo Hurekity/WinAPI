@@ -1,7 +1,3 @@
-//{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ generated include file.
-// Used by Resource.rc
-//
 #define IDR_MAIN_MENU                     101
 #define IDD_DIALOG_ABOUT                  102
 #define IDC_STATIC_ABOUT                 1001
@@ -17,6 +13,8 @@
 #define ID_FORMAT_FONT                  40007
 #define ID_EDIT                         40008
 #define ID_VIEW                         40009
+
+#define ID_FILE_SAVE_HK					50004
 
 // Next default values for new objects
 // 
